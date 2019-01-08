@@ -1,0 +1,21 @@
+.photo-list{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	background-color: #ddd;
+	
+	width: 95%;
+	height: 100%;
+	
+	.photo-item{
+		margin: 0 auto;
+		width: 10%;
+		margin: 0 3%;
+		margin-top: 10px;
+		img{
+			width: 100%;
+			height: 10%;
+		}
+	}
+}

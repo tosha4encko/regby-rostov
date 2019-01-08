@@ -1,0 +1,28 @@
+.history{
+	width: 95%;
+	height: 100%;
+	
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 10px;
+
+	background-color: #ddd;
+	padding-top: 15px;
+
+	.title{
+		font-size: 24px;
+		text-align: center;
+
+		color: #444;
+	}
+
+	.history-item{
+		box-sizing: border-box;
+		height: 25%;
+		
+		margin: 15px;		
+		padding: 10px 35px;
+		
+		border-radius: 25px;
+	}
+}

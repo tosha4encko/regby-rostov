@@ -1,0 +1,34 @@
+$bg-color: #eee;
+
+a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+  background: url(/media/pole.jpg) no-repeat $bg-color;
+	background-size: 100% 145%;
+	background-position: 0 45%;
+
+	margin: 0;
+	padding: 0;
+
+	font-weight: bold;
+	font-family: sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.logo{
+	img{
+		width: 250px;
+		height: 200px;
+	}
+}
+
+.general-content{
+	width: 70%;
+	margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+.social{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: -20px;
+	
+	span{
+		margin: 10px 30px;
+	}
+
+	a{
+		color: white;
+		font-size: 20px;
+		text-decoration: underline;
+	}
+
+	a:hover{
+		text-decoration: none;
+		opacity: 0.5;
+	}
+
+	.vk:hover{
+		a{
+			color: #00f;
+		}
+	}
+
+	.tw:hover{
+		a{
+			color: #0ff;
+		}
+	}
+
+	.inst:hover{
+		a{
+			color: #f0f;
+		}
+	}
+}
